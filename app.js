@@ -8,14 +8,16 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 
-console.log('Hello');
+function write_data(node, data) {
+	firebase.database()
+		.ref(node)
+		.set(data, function(error) {
+			if(error) {
+				console.log('error');
+			} else {
+				console.log('Written Successfully');
+			}
+		});
+}
 
-firebase.database()
-  .ref('downloads/')
-  .set({'tara':true}, function(error) {
-  	if(error) {
-  		console.log('error');
-  	} else {
-  		console.log('Written Successfully');
-  	}
-  });
+write_data('downloads', {'test' : true});

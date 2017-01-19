@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<softwares>
+	<item>
+		<name>Notepad++</name>
+		<about>Free, Open Source &amp; Light-Weight Source Code Editor</about>
+		<size>8 MB</size>
+		<link>http://notepad-plus-plus.org/download</link>
+	</item>
+	<item>
+		<name>CodeVision AVR</name>
+		<about>Integrated Development Environment for the 8-bit Atmel AVR and XMEGA Microcontrollers</about>
+		<link>http://www.hpinfotech.ro/cvavr_download.html</link>
+	</item>
+	<item>
+		<name>Win AVR</name>
+		<about>A suite of executable, open source software development tools for the Atmel AVR series of RISC microprocessors hosted on the Windows platform. Includes the GNU GCC compiler for C and C++</about>
+		<link>http://sourceforge.net/projects/winavr/files/</link>
+		<size>29 MB</size>
+	</item>
+	<item>
+		<name>USB Tiny Driver</name>
+		<about>Driver for USB Tiny interfacing</about>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfQ3diTmpOYXhhRzg</url>
+		<size>231,247</size>
+		<file>usbtinyisp.zip</file>
+	</item>
+	<item>
+		<name>Sina Prog 2.0</name>
+		<about>Provides an interface for programming Microcontroller Boards</about>
+		<file>SinaProg_2.zip</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfMGs4dWZ3RWZTY1U</url>
+		<size>4,156,462</size>
+	</item>
+	<item>
+		<name>Hyperterminal</name>
+		<file>Hyperterminal.exe</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfQkk4RHdrOXZjQ3c</url>
+		<size>3,431,747</size>
+	</item>
+	<item>
+		<name>Tera Term</name>
+		<about>Free &amp; Open Sourse termina emulator program</about>
+		<size>12.8 MB</size>
+		<link>http://logmett.com/index.php?/download/tera-term-484-freeware.html</link>
+	</item>
+	<item>
+		<name>Hex Code Generator</name>
+		<about>Hex code generator for LED dot matrix display</about>
+		<file>Hex-Code-Generator-for-LED-Dot-Matrix-Display-master.zip</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfX0pNaEVQaFhyTEk</url>
+		<size>65,374</size>
+	</item>
+</softwares>

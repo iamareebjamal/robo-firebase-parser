@@ -16,10 +16,10 @@ function write_data(node, data, call) {
 		});
 }
 
-write_data('downloads', {'test' : true}, function(data, error) {
+/*write_data('downloads', {'test' : true}, function(data, error) {
 	if(error) {
 		console.log('error');
 	} else {
 		console.log('Written Successfully');
 	}
-});
+});*/

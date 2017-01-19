@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebooks>
+	<item>
+		<name>Bluetooth 1</name>
+		<file>Bluetooth_1.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfWHZCOGEwaFpDeXc</url>
+		<size>209,760</size>
+	</item>
+	<item>
+		<name>Bluetooth 2</name>
+		<file>Bluetooth_2.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfNW1fbmszTUFMTk0</url>
+		<size>295,002</size>
+	</item>
+	<item>
+		<name>Build A Remote Control Robo</name>
+		<file>BuildRobo.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfVWQtdkZlMkNhalk</url>
+		<size>1,869,977</size>
+	</item>
+	<item>
+		<name>Getting Started with CVAVR</name>
+		<file>CVAVR.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfRTI1UTRQTTFqUFk</url>
+		<size>424,090</size>
+	</item>
+	<item>
+		<name>CVAVR Users Manual</name>
+		<file>cvavrmanual.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfejdsay1Ca3Rfdlk</url>
+		<size>1,739,715</size>
+	</item>
+	<item>
+		<name>Elementary Introduction to Image Processing Based Robots</name>
+		<file>DIP_courtesy IITB.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfdjZrci1VeE16UEE</url>
+		<size>1,125,196</size>
+	</item>
+	<item>
+		<name>Embedded Image Processing with DSP Examples in MATLAB (Shehrzad Qureshi)</name>
+		<file>Embedded Image Processing with DSP Examples in MATLAB - Shehrzad Qureshi.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfdWFZZmx0R3g0QkU</url>
+		<size>2,822,775</size>
+	</item>
+	<item>
+		<name>Beginners Guide To
+Embedded Systems &amp; Robotics</name>
+		<file>EmbeddedBook.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfdWFZZmx0R3g0QkU</url>
+		<size>2,822,775</size>
+	</item>
+	<item>
+		<name>MATLAB7- Getting Started</name>
+		<file>getstart - Matlab.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfeDU4cURoRWlObVk</url>
+		<size>2,441,091</size>
+	</item>
+	<item>
+		<name>GPS</name>
+		<file>GPS_02.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfUEdNdk43N25tQ0U</url>
+		<size>688,585</size>
+	</item>
+	<item>
+		<name>GSM GPRS Modem USB</name>
+		<file>GSM GPRS Modem USB.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfOUlrbktYVzZwdFU</url>
+		<size>204,332</size>
+	</item>
+	<item>
+		<name>GSM Manual- AT Commands Set</name>
+		<file>GSM MANUAL_AT COMMANDS_SIM900_ATC_V1_00.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfZnVaNFVaaElaWXc</url>
+		<size>1,488,242</size>
+	</item>
+	<item>
+		<name>GSM Manual- Hardware Design</name>
+		<file>GSM_MANUAL_SIM900_Hardware Design_V2.00.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfZXFuaFVDUzFTNFE</url>
+		<size>3,026,475</size>
+	</item>
+	<item>
+		<name>Introduction to CodeVision AVR</name>
+		<file>Introduction to CVAVR.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfcndHbjItZV9MaEk</url>
+		<size>1,795,114</size>
+	</item>
+	<item>
+		<name>LCD Interfacing with Atmega16</name>
+		<file>LCD Interfacing with Atmega16</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfbDdfYU9FZGZ1blU</url>
+		<size>7,108,288</size>
+	</item>
+	<item>
+		<name>Practical Electronics Handbook</name>
+		<file>Practical_Electronics_Handbook.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfcHpKWU5YNGZTZU0</url>
+		<size>8,360,679</size>
+	</item>
+	<item>
+		<name>Programming Procedure</name>
+		<file>Programming Procedure.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfRHcwSlVSODBNWVU</url>
+		<size>286,819</size>
+	</item>
+	<item>
+		<name>Speech Recognition Module</name>
+		<file>SPEECH RECOGNITION MODULE.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfaEFuWHlEMEs1UDA</url>
+		<size>1,207,753</size>
+	</item>
+</ebooks>

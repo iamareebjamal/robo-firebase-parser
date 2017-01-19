@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasheets>
+	<item>
+		<name>5x7 LED Display</name>
+		<file>5x7 led display.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfdjVZcUNvX1RiaTQ</url>
+		<size>535,510</size>
+	</item>
+	<item>
+		<name>16x2 LCD Display</name>
+		<file>16x2 lcd.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfSDFzR3BxSVNoTnc</url>
+		<size>76,303</size>
+	</item>
+	<item>
+		<name>555 Timer</name>
+		<file>555 Timer.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfREp3NnVnTW9xWlE</url>
+		<size>153,913</size>
+	</item>
+	<item>
+		<name>7805 Voltage Regulator</name>
+		<file>7805.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfbm1FUkt5MVVNck0</url>
+		<size>235,269</size>
+	</item>
+	<item>
+		<name>7806 Voltage Regulator</name>
+		<file>7806.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfc19HTkdRckJNTUk</url>
+		<size>288,477</size>
+	</item>
+	<item>
+		<name>ATmega8 Micro-controller</name>
+		<file>Atmega8.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfOFFIcTl5RlNta2M</url>
+		<size>4,763,686</size>
+	</item>
+	<item>
+		<name>ATmega16 Micro-controller</name>
+		<file>Atmega16.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfQ3QwVVNoamhnQkE</url>
+		<size>5,632,448</size>
+	</item>
+	<item>
+		<name>BCD to Seven Segment Decoder</name>
+		<file>BCD_to_7segment_decoder.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfUEhIVDVpbWJBY1U</url>
+		<size>597,524</size>
+	</item>
+	<item>
+		<name>L298 Motor Driver</name>
+		<file>L298.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfc0NOTFFfX0ZsbFU</url>
+		<size>614,052</size>
+	</item>
+	<item>
+		<name>LM35 Temperature Sensor</name>
+		<file>LM35.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfRFhWaUJ4eXl2UXc</url>
+		<size>248,957</size>
+	</item>
+	<item>
+		<name>LM324 OpAmp</name>
+		<file>LM324.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfMmp2cWN0aWw3TE0</url>
+		<size>142,979</size>
+	</item>
+	<item>
+		<name>MX232 IC</name>
+		<file>MAX232.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfUW96VDFBeEp3NHM</url>
+		<size>119,972</size>
+	</item>
+	<item>
+		<name>MQ125 Gas Sensor</name>
+		<file>MQ125 Gas Sensor.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfR25UYncxOVFsMUk</url>
+		<size>158,443</size>
+	</item>
+	<item>
+		<name>Reciever (434MHz)</name>
+		<file>Receiver 433MHz.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfMjVpRFNCWGFzVUk</url>
+		<size>193,423</size>
+	</item>
+	<item>
+		<name>STM8L05xx, STM8L15xx, STM8L162x, STM8AL31xx and
+STM8AL3Lxx Microcontroller Family</name>
+		<file>STM8L05xx, STM8L15xx, STM8L162x, STM8AL31xx and.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfdmR2RHNKSkhnTlE</url>
+		<size>4,796,556</size>
+	</item>
+	<item>
+		<name>STM8L152C6 Microcontroller</name>
+		<file>STM8L152C6.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfWFF3QkltNENTSkE</url>
+		<size>2,271,542</size>
+	</item>
+	<item>
+		<name>STM8L1K6 Microcontroller</name>
+		<file>STM8lk6.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfSENQVTdqWHdzMEk</url>
+		<size>1,816,024</size>
+	</item>
+	<item>
+		<name>Transmitter (433MHz)</name>
+		<file>Transmitter 433MHz.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfUWNFb1Iya1FCWnM</url>
+		<size>142,498</size>
+	</item>
+	<item>
+		<name>TSOP17xx Sensors</name>
+		<file>TSOP17xx.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfRUxIVFdncElQV00</url>
+		<size>258,230</size>
+	</item>
+	<item>
+		<name>TSOP1738 Sensor</name>
+		<file>TSOP1738.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfbEhpdDlUOVJBdWs</url>
+		<size>95,256</size>
+	</item>
+	<item>
+		<name>XBEE RF Module</name>
+		<file>XBEE.pdf</file>
+		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfbkd0Y2ZRQjNad1U</url>
+		<size>1,130,717</size>
+	</item>
+</datasheets>

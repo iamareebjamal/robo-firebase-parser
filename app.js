@@ -48,6 +48,23 @@ function listFiles(dir, ext){
 	return list;
 }
 
+/* Flattens the object in required format */
+function flatten(obj) {
+	var flat = {};
+	flat['name'] = Object.keys(obj)[0];
+	flat['items'] = obj[flat['name']]['item'];
+
+	for (i in flat['items']) {
+		var item = flat['items'][i];
+
+		Object.keys(item).forEach( (key) => {
+			item[key] = item[key][0];
+		});
+	}
+
+	return flat;
+}
+
 /* Asynchronously parses list of all files and converts to JSON list and calls */
 function parseXML(list, call) {
 	console.log('Parsing Files...\n');
@@ -56,7 +73,7 @@ function parseXML(list, call) {
 		var data = fs.readFileSync('./xml/' + list[i]);
 		console.log('Parsing ' + list[i]);
 		parseString(data, (error, result) => {
-			parsed.push(result);
+			parsed.push(flatten(result));
 
 			if(i == list.length - 1)
 				call(parsed);

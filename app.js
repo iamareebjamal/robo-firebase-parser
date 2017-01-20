@@ -19,9 +19,12 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 
+const extension = 'xml', folder = 'xml';
+
 /* Asynchronously writes data and approprite node and provides a callback
    with writen data and error(if occured). */
 function write_data(node, data, call) {
+	console.log('Writing in database...\n');
 	firebase.database()
 		.ref(node)
 		.set(data, (error) => {
@@ -31,6 +34,8 @@ function write_data(node, data, call) {
 
 /* Synchronously returns list of all files matching an extension from a directory */
 function listFiles(dir, ext){
+	dir = dir || folder;
+	ext = ext || extension;
 	console.log('Reading files...\n');
 	var list = [];
 	const files = fs.readdirSync('./'+dir+'/');
@@ -43,21 +48,36 @@ function listFiles(dir, ext){
 	return list;
 }
 
-/* Synchronously parses list of all files and converts to JSON list and returns */
-function parseXML(list) {
+/* Asynchronously parses list of all files and converts to JSON list and calls */
+function parseXML(list, call) {
+	console.log('Parsing Files...\n');
+	var parsed = [];
 	for (i in list) {
-		console.log(list[i]);
+		var data = fs.readFileSync('./xml/' + list[i]);
+		console.log('Parsing ' + list[i]);
+		parseString(data, (error, result) => {
+			parsed.push(result);
+
+			if(i == list.length - 1)
+				call(parsed);
+		});
 	}
 }
 
 console.log('Starting Script...\n');
 
-parseXML(listFiles('xml', 'xml'));
+parseXML(listFiles(), (list) => {
 
-/*write_data('downloads', {'test' : true}, (data, error) => {
-	if(error) {
-		console.log('error');
-	} else {
-		console.log('Written Successfully');
-	}
-});*/
+	console.log('\n\nGenerated data :');
+	console.log(JSON.stringify(list, null, 2));
+	
+	/*write_data('downloads', list, (data, error) => {
+		if(error) {
+			console.log('error');
+		} else {
+			console.log('Written Successfully');
+		}
+	});*/
+
+	process.exit();
+});

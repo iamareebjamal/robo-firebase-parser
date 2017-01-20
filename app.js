@@ -89,13 +89,13 @@ parseXML(listFiles(), (data) => {
 	console.log('\n\nGenerated data :');
 	console.log(JSON.stringify(data, null, 2) + '\n\n');
 	
-	/*write_data('downloads', list, (data, error) => {
+	write_data('downloads', data, (data, error) => {
 		if(error) {
 			console.log('error');
 		} else {
-			console.log('Written Successfully');
+			console.log('Written Successfully to downloads!');
 		}
-	});*/
 
-	process.exit();
+		process.exit();
+	});
 });

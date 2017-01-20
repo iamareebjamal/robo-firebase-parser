@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robocon>
 	<item>
-		<notice>Account Details and Brochure</notice>
-		<attachment>account details and brochure.pdf</attachment>
+		<name>Account Details and Brochure</name>
+		<file>account details and brochure.pdf</file>
 		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfc3VDaTZ1eFBhUm8</url>
 	</item>
 	<item>
-		<notice>Cost Estimation and Specification of Components</notice>
-		<attachment>Cost Estimation and Specification of Components .pdf</attachment>
+		<name>Cost Estimation and Specification of Components</name>
+		<file>Cost Estimation and Specification of Components.pdf</file>
 		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfa1ZOWFdzTFotUTA</url>
 	</item>
 	<item>
-		<notice>Problem Statement of ROBOCON</notice>
-		<attachment>Problem Statement of ROBOCON.pdf</attachment>
+		<name>Problem Statement of ROBOCON</name>
+		<file>Problem Statement of ROBOCON.pdf</file>
 		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfSGxUeG02NTdySjg</url>
 	</item>
 	<item>
-		<notice>Letter of Request for Funding</notice>
-		<attachment>Dear Alumni.pdf</attachment>
+		<name>Letter of Request for Funding</name>
+		<file>Dear Alumni.pdf</file>
 		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfaUxCOHBfaVhaYWs</url>
 	</item>
 	<item>
-		<notice>Project Scheduling</notice>
-		<attachment>Project scheduling.pdf</attachment>
+		<name>Project Scheduling</name>
+		<file>Project scheduling.pdf</file>
 		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfdXJBMU5LUi1MZzg</url>
 	</item>
 	<item>
-		<notice>Robocon 2016 Report</notice>
-		<attachment>robocon 2016 report.pdf</attachment>
+		<name>Robocon 2016 Report</name>
+		<file>robocon 2016 report.pdf</file>
 		<url>https://drive.google.com/open?id=0B6SBb5XJ1fKfZVI1aE1jMTQ0S1U</url>
 	</item>
 </robocon>

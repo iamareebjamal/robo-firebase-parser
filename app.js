@@ -82,20 +82,23 @@ function parseXML(list, call) {
 	}
 }
 
-console.log('Starting Script...\n');
+function populateDownloads() {
+	parseXML(listFiles(), (data) => {
 
-parseXML(listFiles(), (data) => {
+		console.log('\n\nGenerated data :');
+		console.log(JSON.stringify(data, null, 2) + '\n\n');
+		
+		write_data('downloads', data, (data, error) => {
+			if(error) {
+				console.log('error');
+			} else {
+				console.log('Written Successfully to downloads!');
+			}
 
-	console.log('\n\nGenerated data :');
-	console.log(JSON.stringify(data, null, 2) + '\n\n');
-	
-	write_data('downloads', data, (data, error) => {
-		if(error) {
-			console.log('error');
-		} else {
-			console.log('Written Successfully to downloads!');
-		}
-
-		process.exit();
+			process.exit();
+		});
 	});
-});
+}
+
+console.log('Starting Script...\n');
+populateDownloads();

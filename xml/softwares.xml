@@ -4,17 +4,17 @@
 		<name>Notepad++</name>
 		<about>Free, Open Source &amp; Light-Weight Source Code Editor</about>
 		<size>8 MB</size>
-		<link>http://notepad-plus-plus.org/download</link>
+		<url>http://notepad-plus-plus.org/download</url>
 	</item>
 	<item>
 		<name>CodeVision AVR</name>
 		<about>Integrated Development Environment for the 8-bit Atmel AVR and XMEGA Microcontrollers</about>
-		<link>http://www.hpinfotech.ro/cvavr_download.html</link>
+		<url>http://www.hpinfotech.ro/cvavr_download.html</url>
 	</item>
 	<item>
 		<name>Win AVR</name>
 		<about>A suite of executable, open source software development tools for the Atmel AVR series of RISC microprocessors hosted on the Windows platform. Includes the GNU GCC compiler for C and C++</about>
-		<link>http://sourceforge.net/projects/winavr/files/</link>
+		<url>http://sourceforge.net/projects/winavr/files/</url>
 		<size>29 MB</size>
 	</item>
 	<item>
@@ -41,7 +41,7 @@
 		<name>Tera Term</name>
 		<about>Free &amp; Open Sourse termina emulator program</about>
 		<size>12.8 MB</size>
-		<link>http://logmett.com/index.php?/download/tera-term-484-freeware.html</link>
+		<url>http://logmett.com/index.php?/download/tera-term-484-freeware.html</url>
 	</item>
 	<item>
 		<name>Hex Code Generator</name>

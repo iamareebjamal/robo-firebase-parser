@@ -65,15 +65,16 @@ function flatten(obj) {
 	return flat;
 }
 
-/* Asynchronously parses list of all files and converts to JSON list and calls */
+/* Asynchronously parses list of all files and converts to JSON object and passes to callback */
 function parseXML(list, call) {
 	console.log('Parsing Files...\n');
-	var parsed = [];
+	var parsed = {};
 	for (i in list) {
 		var data = fs.readFileSync('./xml/' + list[i]);
 		console.log('Parsing ' + list[i]);
 		parseString(data, (error, result) => {
-			parsed.push(flatten(result));
+			var flattened = flatten(result)
+			parsed[flattened['name']] = flattened;
 
 			if(i == list.length - 1)
 				call(parsed);
@@ -83,10 +84,10 @@ function parseXML(list, call) {
 
 console.log('Starting Script...\n');
 
-parseXML(listFiles(), (list) => {
+parseXML(listFiles(), (data) => {
 
 	console.log('\n\nGenerated data :');
-	console.log(JSON.stringify(list, null, 2));
+	console.log(JSON.stringify(data, null, 2) + '\n\n');
 	
 	/*write_data('downloads', list, (data, error) => {
 		if(error) {
